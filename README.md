@@ -67,7 +67,7 @@ Read the GitHub WebHook documentation for further information on what these mean
 Any bad payloads (greetings twice, or subscribe before greetings) will get a `USER_ERROR` response from GHWW which also gives a small explaination in the `why`-field.
 
 ## Info
-This project was thrown together in one night and is therefore of rather mediocre quality and missing a lot of features. The following are planned:
+This project was thrown together in one night and is therefore of rather mediocre quality and missing a lot of features. Originally designed to work with [Eternity2](https://github.com/LordLifeDream/Eternity2). The following are planned:
 - releases!!
 - better internal error handeling
 - User/Repository whitelist for GitHub's inbound requests
