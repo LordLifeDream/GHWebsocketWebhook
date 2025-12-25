@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="test:jar">
+    <output-path>$PROJECT_DIR$/..</output-path>
+    <root id="archive" name="GHWebsocketWebhook.jar">
+      <element id="module-output" name="GHWebsocketWebhook" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/jetty-webapp/11.0.26/jetty-webapp-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/websocket/websocket-jetty-server/11.0.26/websocket-jetty-server-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/jetty-http/11.0.26/jetty-http-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/jetty-security/11.0.26/jetty-security-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/jetty-io/11.0.26/jetty-io-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/jetty-util/11.0.26/jetty-util-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/json/json/20250517/json-20250517.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/websocket/websocket-core-common/11.0.26/websocket-core-common-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/toolchain/jetty-jakarta-servlet-api/5.0.2/jetty-jakarta-servlet-api-5.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/jetty-xml/11.0.26/jetty-xml-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/websocket/websocket-jetty-api/11.0.26/websocket-jetty-api-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/jetty-server/11.0.26/jetty-server-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/jetty-servlet/11.0.26/jetty-servlet-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/websocket/websocket-core-server/11.0.26/websocket-core-server-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/websocket/websocket-jetty-common/11.0.26/websocket-jetty-common-11.0.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/11.0.26/websocket-servlet-11.0.26.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
