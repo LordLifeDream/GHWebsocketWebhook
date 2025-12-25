@@ -53,6 +53,11 @@ The connected client is expected to respond using another `GREETINGS`-payload wi
 Upon receiving and validating the client's greetings, GHWW will send an empty payload of type `GREETINGS_ACK` to acknowledge the greetings. After receiving this payload, the client is registered and can start subscribing.<br>
 To subscribe, the client should send a payload of type `SUBSCRIBE` containing a `repo`-key containig the repo full name, so `user/repo1` for example. This is NOT the repository's URL and should not contain `.git` at the end.
 After validating the client's token's access to the requested repository, GHWW will respond with an empty `SUBSCRIBE_ACK` payload.
+When an event happens, GHWWS will send an `EVENT` payload. The type of event is in the `type`-field and is the same as the `X-GitHub-Event`-header.
+The repository fullname (*user/repo1*) can be found in the `repo`-field.
+The original request body can be found in `data`.
+Read the GitHub WebHook documentation for further information on what these mean, as they're basically copied from the HTTP WebHook request.
+
 
 Any bad payloads (greetings twice, or subscribe before greetings) will get a `USER_ERROR` response from GHWW which also gives a small explaination in the `why`-field.
 
