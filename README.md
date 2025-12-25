@@ -58,6 +58,7 @@ Any bad payloads (greetings twice, or subscribe before greetings) will get a `US
 
 ## Info
 This project was thrown together in one night and is therefore of rather mediocre quality and missing a lot of features. The following are planned:
+- releases!!
 - better internal error handeling
 - User/Repository whitelist for GitHub's inbound requests
 - config editing (optionally via a website too)
